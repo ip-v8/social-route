@@ -1,0 +1,21 @@
+{
+  "name": "social-route",
+  "version": "0.1.0",
+  "description": "DHT routing experiment using social links",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules ./index.mjs",
+    "test-set": "mkdir -p ds && wget -O ds/livejournal.txt.gz https://snap.stanford.edu/data/soc-LiveJournal1.txt.gz && gunzip -S ds/livejournal.txt.gz ds/livejournal.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ip-v8/social-route.git"
+  },
+  "author": "Dany Sluijk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ip-v8/social-route/issues"
+  },
+  "homepage": "https://github.com/ip-v8/social-route#readme"
+}
